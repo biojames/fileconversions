@@ -6,4 +6,10 @@ A perl script that processes the OdEvent log files continuously produced by the
 instrument and extracts the raw fluorescence detected recorded for each of the bins, along with temperature
 and time.
 
-[distillEppendorf](distillEppendorph-v4.pl)
+New OdEvent files are created each day and are only retained for a few days.
+
+For overnight assays the files from two sequential days need to be concatenated.
+
+Usage: distillEppendorph-v4.pl <OdEvent_filename>
+
+Find the perlscript [here](distillEppendorph-v4.pl)
